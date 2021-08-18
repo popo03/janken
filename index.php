@@ -3,17 +3,17 @@
 <head>
   <meta charset="utf8">
   <title>じゃんけん</title>
-  <link ref="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div id="wrapper">
   <header>
-    <div>PHPで作った、じゃんけんプログラム</div>
+    <div class="header-logo">PHPで作った、じゃんけんプログラム</div>
   </header>
   <main>
     <h1>じゃんけん</h1>
     出す手を選んで勝負して下さい。
-    <div>
+    <div class="form-box">
       <form action="battle.php" method="post">
         <label>
           <input type="radio" title="playerHand" name="playerHand" value="グー" checked>グー
@@ -24,7 +24,7 @@
         <label>
           <input type="radio" title="playerHand" name="playerHand" value="パー">パー
         </label>
-        <button type="submit">勝負する！</button>
+        <button type="submit" class="battle-button">勝負する！</button>
       </form>
     </div>
   </main>
