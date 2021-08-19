@@ -52,6 +52,14 @@ label + label {
   text-shadow: 0 1px 0 rgba(0,0,0,0.2);
 }
 
+.result-word {
+  font-size: 35px;
+}
+
+.red {
+  color: #ff6768;
+}
+
 footer {
   color: #fff;
   background-color: #5e6c77;
